@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Basket Bros</title>
+    <title>Basket Bros | nabilgames</title>
     <meta name="description" content="Online multiplayer basketball! Dunk all over your bros!" />
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="shortcut icon" type="image/png" href="./favicon.png" />
@@ -65,6 +65,17 @@
         animation: spin1 2s infinite linear;
       }
     </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125804026-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-125804026-2", { cookie_flags: "secure;samesite=none" });
+      gtag("config", "G-GYMF5NRSDN", { cookie_flags: "secure;samesite=none" });
+    </script>
 
     <script>
       //Interstitial ad available event
@@ -143,7 +154,15 @@
         }
       }
     </script>
-
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "9e216ce8-de65-411a-8cbd-50930a7bd60c",
+        });
+      });
+    </script>
   </head>
   <body style="overflow: hidden;">
     <noscript>Enable JavaScript bro!</noscript>
@@ -152,6 +171,15 @@
     </div>
 
     <div id="game2" style="width: 100%; height: 100%;">
+      <div id="basketbros-io_160x600" style="float: left; width: 170px; height: 600px; position: relative; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);">
+        <script>
+          if (typeof gCrazySDK == "undefined") {
+            aiptag.cmd.display.push(function () {
+              aipDisplayTag.display("basketbros-io_160x600");
+            });
+          }
+        </script>
+      </div>
 
       <div id="openfl-content" style="width: calc(100% - 320px); float: left;">
         <script type="text/javascript">
@@ -160,6 +188,18 @@
       </div>
       <div id="preroll" style="width: 960px; height: 540px; background-color: black; display: none; position: absolute; top: 50%; left: 50%; z-index: 100; transform: translate(-50%, -50%);"></div>
 
+      <div
+        id="basketbros-io_160x600_2"
+        style="float: right; width: 170px; height: 600px; justify-content: right; text-align: right; position: relative; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);"
+      >
+        <script>
+          if (typeof gCrazySDK == "undefined") {
+            aiptag.cmd.display.push(function () {
+              aipDisplayTag.display("basketbros-io_160x600_2");
+            });
+          }
+        </script>
+      </div>
       <div id="basketbros-io_300x250" style="width: 300px; height: 250px; visibility: hidden; display: none; position: absolute; top: 30px; left: 30px; z-index: 100;"></div>
       <div id="basketbros-io_300x250_2" style="width: 300px; height: 250px; visibility: hidden; display: none; position: absolute; top: 30px; left: 30px; z-index: 100;"></div>
       <div id="basketbros-io_player_300x600" style="visibility: hidden; width: 300px; height: 600px; display: none; position: absolute; top: 30px; left: 30px; z-index: 100;"></div>
