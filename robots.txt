@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://basket-bros-io.github.io/sitemap.xml
